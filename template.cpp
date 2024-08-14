@@ -112,7 +112,7 @@ namespace gll {
             after_solve();
             Logs(2, "\nEnd test");
         }
-        Logs(1, "End solve...");
+        Logs(1, "\nEnd solve...");
         Logs(1, "____________________________________");
         Logs(1, "Time = [" + std::to_string(clock() / (double)CLOCKS_PER_SEC) + "]");
     }
